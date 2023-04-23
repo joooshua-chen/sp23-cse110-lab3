@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-[Meeting Minutes HTML Site](https://joooshua-chen.github.io/Lab2_Starter/)
+# Lab 3 - Starter
+[Lab 3 Website](https://joooshua-chen.github.io/sp23-cse110-lab3/)
