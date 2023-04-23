@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    body {
+        background-color: #7da5b1;
+    }
+    </style>
     <meta charset="UTF-8">
     <meta name="description" content="First Meeting Minutes">
     <title>Lab 2 Meeting Minutes</title>
@@ -8,14 +14,14 @@
   </head>
   <body>
     <header>
-        <h1>Meeting Minutes 1: Pomodoro Timer First Brainstorm</h1>
+        <h1 style="color:white;text-align:center;"> Meeting Minutes 1: Pomodoro Timer First Brainstorm</h1>
         <nav><a href="#">All Meeting Minutes</a></nav>
     </header>
     <main>
         <h2>Brainstorming</h2>
         <h3>Date: April 13, 2023</h3>
         <hr>
-        <p>Meeting Agenda: We are going to brainstorm the functionality of our 
+        <p id="para1">Meeting Agenda: We are going to brainstorm the functionality of our 
             Pomodoro Timer and also figure out our schedule for when we will be completing each function.</p>
         <h3>Unfinished Business</h3>
         <div>
@@ -41,9 +47,9 @@
         </ul>
     </main>
     <section><h2><span>Diagrams and Recordings</span></h2>
-    <img src="images/capy.jpeg" alt="Capybara With Orange On Head">
+    <img src="images/capy.jpeg" alt="Capybara With Orange On Head" id="capy">
     <audio controls src="media/audio.mp3"> Download Audio</audio>
-    <video controls width="250"> <source src="media/video.mp4"></video>
+    <video controls width="250" id="video"> <source src="media/video.mp4"></video>
     </section>  
     <details>
         <summary>Team's Favorite Food</summary>
@@ -89,7 +95,7 @@
         <option value="Pancakes">Pancakes</option>
         <option value="Muffin">Muffins</option>
     </select>
-    <button type="button">Self Destruct</button>
+    <button type="button" id="boom">Self Destruct</button>
     <footer><p>Made by Joshua</p></footer>
   </body>
 </html>
