@@ -1,0 +1,83 @@
+/*backgound color, hex code color, media, and color name color is in the html file*/
+@font-face {
+    font-family: roboto;
+    src: url(media/RobotoCondensed-Light.ttf);
+}
+
+h2 {
+    color: rgb(247,247,247);
+    color: hsl(0, 25%, 20%);
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 25px;
+    text-decoration: white wavy underline;
+}
+
+h1 {
+    font-size: 5ch;
+    margin: auto;
+    font-family: roboto;
+}
+
+h3 {
+    font-size: 135%;
+    margin: 10px 50px 50px 0;
+    font-family: roboto;
+}
+
+#para1 {
+    font-size: 0.5cm;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+#capy {
+    width: 4in;
+    height: 360px;
+    padding: 25px 25px 25px 25px;
+    display: block;
+    position: relative;
+}
+
+#video {
+    min-width: 160px;
+    max-width: 480px;
+    position: sticky;
+}
+
+button:hover {
+    color:red;
+}
+
+button:active {
+    box-shadow: 2px 2px 5px crimson;
+}
+
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: 3;
+    justify-content: center;
+}
+
+.grid-container {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px, 10px;
+}
+
+.grid-container > div {
+    background-color: aliceblue;
+    margin: 20px;
+    font-size: 200%;
+    text-align: center;
+}
+
