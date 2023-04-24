@@ -11,7 +11,7 @@ h2 {
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 0px;
-    margin-right: 25px;
+    margin-right: 2ex;
     text-decoration: white wavy underline;
 }
 
@@ -44,6 +44,11 @@ h1 h3 {
     min-width: 160px;
     max-width: 480px;
     position: sticky;
+    margin: auto;
+    border-style: dotted;
+    border-color: blue;
+    border-width: 5px;
+    border-radius: 30px;
 }
 
 button:hover {
