@@ -15,17 +15,12 @@ h2 {
     text-decoration: white wavy underline;
 }
 
-h1 {
+h1 h3 {
     font-size: 5ch;
-    margin: auto;
-    font-family: roboto;
-}
-
-h3 {
-    font-size: 135%;
     margin: 10px 50px 50px 0;
     font-family: roboto;
 }
+
 
 #para1 {
     font-size: 0.5cm;
@@ -81,3 +76,26 @@ button:active {
     text-align: center;
 }
 
+div * {
+    background-color: azure;
+}
+
+a[href="https://www.tomatotimers.com/"] {
+    background-color: gold;
+}
+
+ul li {
+    color: darkblue;
+}
+
+p ~ p {
+    background-color: gold;
+} 
+
+p + h3 {
+    color: red;
+}
+
+div.grid-container {
+    color:red;
+}
